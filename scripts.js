@@ -12,6 +12,8 @@ const modalProductName = document.querySelector("#modal-product-name");
 const notifyStatus = document.querySelector("#notify-status");
 const contactForm = document.querySelector("#contact-form");
 const contactStatus = document.querySelector("#contact-status");
+const menuToggle = document.querySelector("#menu-toggle");
+const mobileMenuLinks = document.querySelectorAll(".mobile-menu a");
 const heartInputs = document.querySelectorAll(".heart-toggle_input");
 
 let modalTimer;
@@ -120,6 +122,14 @@ document.addEventListener("keydown", (event) => {
     window.clearTimeout(modalTimer);
     closeModal();
   }
+});
+
+mobileMenuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (menuToggle instanceof HTMLInputElement) {
+      menuToggle.checked = false;
+    }
+  });
 });
 
 if (notifyForm) {
