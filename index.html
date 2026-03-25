@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A whimsical one-page shop for four delightfully odd little products." />
+  <title>Tiny Prophecy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="hero" id="home">
+    <div class="hero_overlay"></div>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="site-nav_brand" href="#home">
+        <img src="assets/images/logo_white.png" alt="Tiny Whimsy Shop logo" />
+      </a>
+      <ul class="site-nav_links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero_content">
+      <p class="eyebrow">Handmade ceramics with something to say</p>
+      <h1>Peculiar companions with something to say.</h1>
+      <p class="hero_intro">
+        Meet four handmade oddities ready to charm bookshelves, desks, and anyone who believes everyday objects should
+        feel a little enchanted.
+      </p>
+      <div class="hero_actions">
+        <a class="button button--primary" href="#products">Adopt a tiny <i class="bi bi-arrow-right-short button_icon"
+            aria-hidden="true"></i></a>
+        <a class="button button--ghost" href="#about">How it works <i class="bi bi-stars button_icon"
+            aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="wave wave--bottom" aria-hidden="true">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z">
+        </path>
+      </svg>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--light" id="about">
+      <div class="section_heading">
+        <p class="eyebrow eyebrow--dark">About the tinies</p>
+        <h2>Small objects, strong personalities</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          Tiny Prophecy is a collection of handmade ceramic companions, each with its own mood, purpose, and slightly
+          suspicious energy. Every piece is shaped by hand, making each one quietly unique.
+          <br><br>
+          Beneath the surface, each companion holds something waiting to be revealed. Bring your phone close and it will
+          respond with a message meant just for you, sometimes comforting, sometimes unsettling, and occasionally a
+          little too specific.
+        </p>
+        <p>
+          Some messages feel like reassurance, others like warnings, and a few land somewhere in between. They are not
+          always helpful, but they are rarely easy to ignore.
+          <br><br>
+          Over time, these small interactions become part of a quiet routine. A moment of curiosity, a check-in, or a
+          habit you didn't mean to start but somehow keep returning to.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--collection" id="products">
+      <div class="section_heading">
+        <p class="eyebrow">The collection</p>
+        <h2>Four whimsical products, each with its own delightful agenda</h2>
+        <p class="section_intro">
+          Each piece has its own personality and purpose. Some will guide you. Others may not have your best interests
+          in mind. Choose the one that feels right, or the one that feels slightly wrong.
+        </p>
+      </div>
+
+      <div class="collection-showcase">
+        <article class="product-feature" data-product-name="Crumb of Fate">
+          <div class="product-feature_art">
+            <img src="assets/images/crumb.jpg" alt="Crumb of Fate product preview" />
+          </div>
+          <div class="product-card_body">
+            <div class="product-feature_meta">
+              <p class="product-feature_tag">Best for fortune seekers</p>
+              <label class="heart-toggle" for="heart-toggle-crumb"
+                aria-label="Notify me when Crumb of Fate is available">
+                <input id="heart-toggle-crumb" class="visually-hidden-input heart-toggle_input" type="checkbox"
+                  data-product-name="Crumb of Fate" />
+                <span class="heart-icon">
+                  <i class="bi bi-heart heart-outline"></i>
+                  <i class="bi bi-heart-fill heart-solid"></i>
+                </span>
+              </label>
+            </div>
+            <h3>Crumb of Fate</h3>
+            <p>A tiny piece of destiny with an unusual level of confidence.
+              Tap to receive a message about your future, hopeful, vague, and occasionally a little too certain.</p>
+            <span class="price">$18</span>
+          </div>
+        </article>
+
+        <article class="product-feature" data-product-name="Nigel">
+          <div class="product-feature_art">
+            <img src="assets/images/nigel.jpg" alt="Nigel product preview" />
+          </div>
+          <div class="product-card_body">
+            <div class="product-feature_meta">
+              <p class="product-feature_tag">Best for dark corners</p>
+              <label class="heart-toggle" for="heart-toggle-nigel" aria-label="Notify me when Nigel is available">
+                <input id="heart-toggle-nigel" class="visually-hidden-input heart-toggle_input" type="checkbox"
+                  data-product-name="Nigel" />
+                <span class="heart-icon">
+                  <i class="bi bi-heart heart-outline"></i>
+                  <i class="bi bi-heart-fill heart-solid"></i>
+                </span>
+              </label>
+            </div>
+            <h3>Nigel</h3>
+            <p>A calm presence with a talent for concern.
+              Nigel will give you something to worry about. He rarely exaggerates, which is not reassuring.</p>
+            <span class="price">$22</span>
+          </div>
+        </article>
+
+        <article class="product-feature" data-product-name="Tiny Pumpkin">
+          <div class="product-feature_art">
+            <img src="assets/images/pumpkin.jpg" alt="Tiny Pumpkin product preview" />
+          </div>
+          <div class="product-card_body">
+            <div class="product-feature_meta">
+              <p class="product-feature_tag">Best for autumn lovers</p>
+              <label class="heart-toggle" for="heart-toggle-pumpkin"
+                aria-label="Notify me when Tiny Pumpkin is available">
+                <input id="heart-toggle-pumpkin" class="visually-hidden-input heart-toggle_input" type="checkbox"
+                  data-product-name="Tiny Pumpkin" />
+                <span class="heart-icon">
+                  <i class="bi bi-heart heart-outline"></i>
+                  <i class="bi bi-heart-fill heart-solid"></i>
+                </span>
+              </label>
+            </div>
+            <h3>Tiny Pumpkin</h3>
+            <p>Warm on the outside, something else entirely within.
+              Tap to read a horror tale best enjoyed when the room is a dark.</p>
+            <span class="price">$19</span>
+          </div>
+        </article>
+
+        <article class="product-feature" data-product-name="Tiny Ghost">
+          <div class="product-feature_art">
+            <img src="assets/images/ghost.jpg" alt="Tiny Ghost product preview" />
+          </div>
+          <div class="product-card_body">
+            <div class="product-feature_meta">
+              <p class="product-feature_tag">Best for gentle hauntings</p>
+              <label class="heart-toggle" for="heart-toggle-ghost" aria-label="Notify me when Tiny Ghost is available">
+                <input id="heart-toggle-ghost" class="visually-hidden-input heart-toggle_input" type="checkbox"
+                  data-product-name="Tiny Ghost" />
+                <span class="heart-icon">
+                  <i class="bi bi-heart heart-outline"></i>
+                  <i class="bi bi-heart-fill heart-solid"></i>
+                </span>
+              </label>
+            </div>
+            <h3>Tiny Ghost</h3>
+            <p>A quiet presence that lingers longer than expected.
+              Tap to hear a ghost story that stays with you.</p>
+            <span class="price">$20</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--light section--story" id="story">
+      <div class="story-card">
+        <p class="eyebrow eyebrow--dark">Why people love them</p>
+        <h2>Objects with a life of their own</h2>
+        <p>
+          Each piece is carefully shaped by hand using high-fired stoneware, giving it a solid, lasting quality while
+          keeping its small, imperfect charm. No two are exactly alike, which makes each one feel a little more personal
+          from the start.
+          <br><br>
+          What sets them apart is the combination of craft and interaction. These are not just decorative objects, but
+          small companions designed to respond when approached. A simple gesture reveals something in return, turning a
+          quiet object into a small, repeatable experience.
+          <br><br>
+          The collection comes from a mix of calm creation and slightly overactive imagination. Some pieces lean towards
+          reassurance, others towards concern, and a few exist somewhere in between. Together, they form a strange but
+          cohesive little world that people tend to come back to, share, and occasionally blame for new worries.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--warm" id="contact">
+      <div class="section_heading">
+        <p class="eyebrow eyebrow--dark">Get in touch</p>
+        <h2>Questions, commissions, or unusual requests</h2>
+        <p class="section_intro">If you're looking for something specific, curious about a piece, or have an idea that
+          feels slightly unnecessary but important, feel free to reach out.
+          <br><br>
+          I'm always open to new creations, especially the strange ones.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label class="contact-form_full">
+          Message
+          <textarea name="message" rows="5" placeholder="Tell us which tiny has your heart..." required></textarea>
+        </label>
+        <button class="button button--primary" type="submit">Send Message <i class="bi bi-send button_icon"
+            aria-hidden="true"></i></button>
+      </form>
+      <p class="contact_status" id="contact-status" aria-live="polite"></p>
+
+      <div class="custom-shape-divider-footer" aria-hidden="true">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25" class="shape-fill"></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5" class="shape-fill"></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill">
+          </path>
+        </svg>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="notify-modal" aria-hidden="true">
+    <div class="modal_backdrop" data-close-modal></div>
+    <div class="modal_panel" role="dialog" aria-modal="true" aria-labelledby="notify-title">
+      <button class="modal_close" type="button" aria-label="Close modal" data-close-modal>&times;</button>
+      <p class="eyebrow eyebrow--dark">Availability update</p>
+      <h2 id="notify-title">We'll let you know when it's available</h2>
+      <p class="modal_copy">
+        Add your email for <span id="modal-product-name">this product</span> and we'll only use it to notify you when
+        it becomes available. No advertising emails, just the update you asked for.
+      </p>
+      <form class="modal_form" id="notify-form">
+        <label for="notify-email">Email</label>
+        <input id="notify-email" name="email" type="email" placeholder="you@example.com" required />
+        <input id="notify-product" name="product" type="hidden" />
+        <button class="button button--primary" type="submit">Notify Me <i class="bi bi-envelope-heart button_icon"
+            aria-hidden="true"></i></button>
+      </form>
+      <p class="modal_status" id="notify-status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <iframe name="waitlist_target" id="waitlist_target" class="hidden_iframe" title="Waitlist submission target"></iframe>
+  <iframe name="contact_target" id="contact_target" class="hidden_iframe" title="Contact submission target"></iframe>
+
+  <footer class="site-footer">
+    <div class="site-footer_content">
+      <img class="site-footer_logo" src="assets/images/logo_white.png" alt="Tiny Whimsy Shop logo" />
+
+      <div class="site-footer_socials" aria-label="Social media links">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://pinterest.com" target="_blank" rel="noreferrer" aria-label="Pinterest"><i
+            class="bi bi-pinterest"></i></a>
+        <a href="https://tiktok.com" target="_blank" rel="noreferrer" aria-label="TikTok"><i
+            class="bi bi-tiktok"></i></a>
+      </div>
+      <p>&copy; <span id="year"></span> Tiny Prophecy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
