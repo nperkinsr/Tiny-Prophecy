@@ -399,11 +399,12 @@ a {
 
 .product-feature_art {
   width: 100%;
-  aspect-ratio: 2.25 / 1;
+  aspect-ratio: 455 / 340;
   background: var(--dark-grey);
 }
 
 .product-feature_art img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
